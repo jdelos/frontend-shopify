@@ -1,15 +1,20 @@
-require("dotenv").config()
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
-    siteTitle: "gatsby-starter-shopify",
-    siteTitleDefault: "gatsby-starter-shopify by @GatsbyJS",
-    siteUrl: "https://shopify-demo.gatsbyjs.com",
+    siteTitle: `La Calçotada - Shop`,
+    siteTitleDefault: `Order Your Next Calçotada - La Calçotada`,
+    siteHeadline: `All copyrights reserved to La Calçotada`,
+    siteUrl: `https://lacalcotada.com`,
+    siteDescription: `La Calçotada Barcelona's Best Barbecue Feasts`,
+    siteLanguage: `en`,
+    siteImage: `/banner.png`,
+    author: `@lacalcotada`,
     hrefLang: "en",
-    siteDescription:
-      "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
-    siteImage: "/default-og-image.jpg",
-    twitter: "@gatsbyjs",
+    twitter: `@lacalcotada`
   },
   flags: {
     FAST_DEV: true,
