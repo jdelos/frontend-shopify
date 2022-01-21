@@ -1,6 +1,6 @@
 {
   "name": "gatsby-theme-shopify-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A Gatsby starter using the latest Shopify plugin showcasing a store with product overview, individual product pages, and a cart.",
   "author": "LekoArts <hello@lekoarts.de>",
